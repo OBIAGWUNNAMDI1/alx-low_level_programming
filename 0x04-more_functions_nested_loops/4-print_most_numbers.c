@@ -4,7 +4,7 @@
 /**
  * print_most_numbers -print more numbers functions
  * Return:nothing
-*/
+ */
 void print_most_numbers(void)
 {
 	int c;
