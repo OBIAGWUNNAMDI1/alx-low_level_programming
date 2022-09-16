@@ -1,27 +1,20 @@
 #include "main.h"
 /**
- * more_numbers -prints numbers
- * Return:0
-*/
+ * more_numbers -a function that prints 10times
+ */
 void more_numbers(void)
 {
-	int i;
-	int j;
+	int a, b;
 
-	for (i = 0; i <= 10; i++)
+	for (a = 0; a <= 9; a++)
 	{
-		for (j = 0; j <= 14; j++)
+		for (b = 0; b <= 14; b++)
 		{
-			if (j < 10)
-			{
-				_putchar(j + '0');
-			}
-			else
-			{
-				_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
-			}
+			if (b >= 10)
+			_putchar('0' + (j / 10));
+			_putchar('0' + (j % 10));
+
 		}
-		printf("\n");
+		_putchar('\n');
 	}
 }
