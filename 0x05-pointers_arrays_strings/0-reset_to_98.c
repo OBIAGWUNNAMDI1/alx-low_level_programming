@@ -1,5 +1,7 @@
 #include "main.h"
-/** reset_to_98 -function that resets to 98
+
+/**
+ * reset_to_98 -function that resets to 98
  * @n :integer value
  * Return :Always 0
  */
