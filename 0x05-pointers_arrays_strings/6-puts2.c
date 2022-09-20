@@ -7,16 +7,16 @@
 void puts2(char *str)
 {
 	int c;
-	char len;
+	char l;
 
 	for (c = 0; str[c] != 0; c++)
 	{
 		if (c % 2 == 0)
 		{
-			len = str[c];
-			_putchar(len);
+			l = str[c];
+			_putchar(l);
 		}
-		_putchar('\n');
 	}
+	_putchar('\n');
 
 }
