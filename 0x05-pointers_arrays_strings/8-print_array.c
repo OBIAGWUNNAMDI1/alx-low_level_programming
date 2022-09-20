@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
  * print_array - prints n times the elements of an array
- * @a : param
+ i* @a : param
  * @n : param
  * Return:0
  */
@@ -14,9 +14,9 @@ void print_array(int *a, int n)
 	{
 		printf("%d", a[i]);
 
-		if (i < n - 1)
+		if (i != (n - 1))
 		{
-			printf(",");
+			printf(", ");
 		}
 	}
 	_putchar('\n');
