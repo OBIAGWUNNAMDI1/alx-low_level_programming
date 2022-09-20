@@ -31,7 +31,7 @@ int main(void)
 				i++;
 				break;
 			}
-			k++
+			k++;
 		}
 	}
 	p[i] = '\0';
