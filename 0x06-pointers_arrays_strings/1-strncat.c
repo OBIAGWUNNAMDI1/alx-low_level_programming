@@ -1,4 +1,6 @@
 #include "main.h"
+#include <string.h>
+#include <stdio.h>
 /**
  * _strncat - appends src to the dest string
  * @dest: string to append by src
@@ -8,19 +10,19 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i, j;
+	int num1, num2;
 
-	i = j = 0;
+	num1 = num2 = 0;
 
-	while (*(dest + i))
-		i++;
-	while (j < n && *(src + j))
+	while (*(dest + num1))
+		num1++;
+	while (num2 < n && *(src + num2))
 	{
-		*(dest + i) = *(src + j);
-		i++;
-		j++;
+		*(dest + num1) = *(src + num2);
+		num1++;
+		num2++;
 	}
-	if (j < n)
-		*(dest + i) = *(src + j);
+	if (num2 < n)
+		*(dest + num1) = *(src + num2);
 	return (dest);
 }
